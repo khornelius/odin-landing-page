@@ -2,16 +2,20 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
+    margin: 0;
+    font-size: 18px;
     height:100vh;
 }
 
 .dark-bg {
     background-color: #1F2937;
+    padding: 0 64px;
+    flex: 1;
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -26,9 +30,46 @@ body {
     list-style-type: none;
 }
 
-.header-link {
+.links a {
     color: #E5E7EB;
-    font-size: 18px;
     text-decoration: none;
 }
 
+.hero {
+    display: flex;
+    flex: 1;
+    gap: 32px;
+    margin: 128px 0;
+}
+
+.hero-left {
+    flex: 1 3 100;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 8px 32px;
+}
+
+.dark-bg h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.dark-bg p {
+    color: #E5E7EB;
+}
+
+.image-placeholder {
+    background-color: grey;
+    color: white;
+    flex: 1 1 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
