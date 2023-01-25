@@ -13,6 +13,10 @@ body {
     flex: 1;
 }
 
+.light-bg {
+    flex: 1;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -40,6 +44,7 @@ body {
     flex: 1;
     gap: 32px;
     margin: 128px 0;
+    justify-content: center;
 }
 
 .hero-left {
@@ -66,10 +71,34 @@ body {
 }
 
 .image-placeholder {
-    background-color: grey;
-    color: white;
-    flex: 1 1 500px;
     display: flex;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+}
+
+.info-blocks {
+    flex: 1;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.block {
+    max-width: 150px;
+    text-align: center;
+    flex: 1;
+}
+
+.block img {
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+}
+
+.information h1 {
+    font-size: 36px;
+    font-weight: extra-bold;
 }
