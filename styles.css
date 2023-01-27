@@ -50,6 +50,10 @@ body {
     text-decoration: none;
 }
 
+.links a:hover {
+    text-decoration: underline;
+}
+
 .hero {
     display: flex;
     flex: 1;
