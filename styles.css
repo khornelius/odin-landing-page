@@ -57,7 +57,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 64px 0;
+    padding: 128px 0;
 }
 
 .hero .hero-head {
@@ -135,7 +135,7 @@ button {
 .testimonial {
     display: flex;
     flex-direction: column;
-    padding: 64px 16px;
+    padding: 128px 16px;
     width: 800px;
     gap: 8px;
 }
@@ -154,13 +154,15 @@ button {
 
 .cta {
     display: flex;
+    flex: 1;
     flex-wrap: wrap;
     align-self: center;
+    justify-content: space-between;
     background-color: #3882F6;
-    margin: 64px 64px;
+    margin: 96px 64px;
     padding: 32px 64px;
     border-radius: 8px;
-    gap: 64px;
+    gap: 32px;
     color: white;
 }
 
@@ -172,4 +174,12 @@ button {
 .cta-head {
     font-size: 24px;
     margin-bottom: 8px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 32px;
 }
