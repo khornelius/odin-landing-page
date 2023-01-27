@@ -103,6 +103,10 @@ button {
     padding: 6px 32px;
 }
 
+button:active {
+    background-color: #2e435f;
+}
+
 .information {
     flex: 1;
     display: flex;
